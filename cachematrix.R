@@ -1,6 +1,7 @@
 ## makeCacheMatrix : Caches a symmetric matrix and its inverse.
 ## Argument: x = a symmetric matrix whose inverse is to be cached.
-## Returns:  A list of functions (get, set, getInverse, setInverse).
+## Returns:  An object that caches the matrix and its inverse. Provides 
+##	     functions : get, set, getInverse, setInverse.
 
 makeCacheMatrix <- function(x = matrix()) {
         inv_mat <- NULL
