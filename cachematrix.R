@@ -1,6 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 ## makeCacheMatrix : Caches a symmetric matrix and its inverse.
 ## Argument: x = a symmetric matrix whose inverse is to be cached.
 ## Returns:  A list of functions (get, set, getInverse, setInverse).
@@ -23,9 +20,10 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve:	Returns the inverse of a symmetric matrix from cache if cache is not empty.
-##		Otherwise, computes the inverse of a symmetric matrix, saves it in cache and returns
-## 	      	the inverse matrix.
+## cacheSolve:	Returns the inverse of a symmetric matrix from cache if cache
+##		is not empty.
+##		Otherwise, computes the inverse of a symmetric matrix, saves it
+##		in cache and returns the inverse matrix.
 # Argument: x = an object created with makeCacheMatrix().
 # Returns:  Inverse of a matrix.
 
